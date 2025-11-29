@@ -1,310 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>RapidRewards.Creditcard – Rapid Rewards Points & Credit Cards</title>
-  <meta name="description"
-        content="Neutral guide to Southwest Rapid Rewards: how points are earned, how revenue-based pricing works, elite tiers, Companion Pass and how credit cards boost Rapid Rewards points."/>
-  <meta name="robots" content="index,follow"/>
-  <link rel="canonical" href="https://rapidrewards.creditcard/"/>
+  <title>RapidRewards.Creditcard – How Rapid Rewards Airline Credit Cards Work</title>
+  <meta name="description" content="Understanding credit cards tied to Rapid Rewards–style airline programs: earning miles on spend, redeeming for flights, partner routes, fees and when a miles card makes sense." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://rapidrewards.creditcard/" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="RapidRewards.Creditcard – Rapid Rewards Points & Credit Cards"/>
-  <meta property="og:description"
-        content="Understand Southwest Rapid Rewards: earning points, revenue-based awards, elite tiers and how credit cards help you qualify for more points and Companion Pass value."/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:url" content="https://rapidrewards.creditcard/"/>
-  <meta property="og:image"
-        content="https://choose.creditcard/preview.png?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=og_image"/>
+  <meta property="og:title" content="RapidRewards.Creditcard – Airline Miles & Rewards Cards Explained" />
+  <meta property="og:description" content="Learn how Rapid Rewards–style airline credit cards convert spending into miles, how redemptions and partner flights work, plus the trade-offs to evaluate before you apply." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://rapidrewards.creditcard/" />
+  <meta property="og:image" content="https://choose.creditcard/preview.png?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=og_image" />
 
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:title" content="RapidRewards.Creditcard – Rapid Rewards Points & Credit Cards"/>
-  <meta name="twitter:description"
-        content="How Southwest Rapid Rewards works: earning, redemptions, elite tiers, Companion Pass and card strategies for frequent Southwest flyers."/>
-  <meta name="twitter:image"
-        content="https://choose.creditcard/preview.png?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=twitter_image"/>
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="RapidRewards.Creditcard – Airline Miles Card Guide" />
+  <meta name="twitter:description" content="Independent guide to how credit cards tied to Rapid Rewards–style airline loyalty programs earn miles, how to redeem them for award flights, and what to check before signing up." />
+  <meta name="twitter:image" content="https://choose.creditcard/preview.png?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=twitter_image" />
 
   <!-- GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-64FE63JQ3H"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-    gtag("js", new Date());
-    gtag("config", "G-64FE63JQ3H");
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-64FE63JQ3H');
   </script>
 
-  <link rel="stylesheet" href="./styles.css"/>
+  <!-- Tailwind for utility classes -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Shared minisite styles -->
+  <link rel="stylesheet" href="./styles.css" />
 </head>
-
 <body class="bg-slate-950 text-slate-100">
-
-<header class="site-header">
-  <div class="nav-inner max-w-6xl">
-    <a class="brand"
-       href="https://choose.creditcard/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=header_brand"
-       style="color:inherit;text-decoration:none;">
-      <div class="cc-logo">CC</div>
-      <div class="brand-text">
-        <div class="brand-title">RapidRewards.Creditcard</div>
-        <div class="brand-subtitle">Southwest Rapid Rewards &amp; Cards</div>
+  <header class="site-header">
+    <div class="nav-inner max-w-6xl">
+      <div class="brand">
+        <div class="cc-logo">CC</div>
+        <div class="brand-text">
+          <div class="brand-title">RapidRewards.Creditcard</div>
+          <div class="brand-subtitle">Airline Miles & Frequent-Flyer Cards</div>
+        </div>
       </div>
-    </a>
-
-    <nav class="nav-links">
-      <a href="#overview">Overview</a>
-      <a href="#earning">Earning</a>
-      <a href="#redeem">Redemptions</a>
-      <a href="#cards">Credit Cards</a>
-    </nav>
-  </div>
-</header>
-
-<main class="cc-page">
-
-  <!-- Breadcrumb -->
-  <div class="cc-breadcrumb">
-    <a href="https://choose.creditcard/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=breadcrumb">Home</a>
-    &nbsp;›&nbsp;Rapid Rewards
-  </div>
-
-  <!-- Hero -->
-  <section class="hero">
-    <h1>Southwest Rapid Rewards: Points, Companion Pass &amp; Credit Cards</h1>
-    <p class="hero-lead">
-      Rapid Rewards is Southwest Airlines’ loyalty program. It uses revenue-based pricing, simple points earning and
-      one of the most famous perks in domestic U.S. travel: the Companion Pass. This guide explains how points are
-      earned, how redemptions work, what elite tiers look like and how credit cards can accelerate your Rapid Rewards strategy.
-    </p>
-    <a class="cta"
-       href="https://choose.creditcard/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=hero_cta">
-      Best Cards for Earning Rapid Rewards Points
-    </a>
-  </section>
-
-  <!-- 1. What the program is -->
-  <section id="overview" class="section">
-    <h2>1. What the Rapid Rewards Program Is</h2>
-    <p>
-      Rapid Rewards is Southwest’s frequent-flyer program built around <strong>simplicity and flexibility</strong>:
-      no traditional award chart, no blackout dates on points bookings when seats are for sale, and free checked bags
-      on Southwest itself (subject to airline policy).
-    </p>
-
-    <ul class="list">
-      <li><strong>Points-based system</strong> with earnings tied to your fare type and spend.</li>
-      <li><strong>Revenue-based redemptions</strong> – points needed roughly track the cash fare.</li>
-      <li><strong>Elite status</strong> tiers for frequent Southwest flyers.</li>
-      <li><strong>Companion Pass</strong> – a powerful benefit letting a companion fly with you for just taxes and fees on eligible tickets.</li>
-    </ul>
-  </section>
-
-  <!-- 2. How points are earned -->
-  <section id="earning" class="section">
-    <h2>2. How Rapid Rewards Points Are Earned</h2>
-    <p>You can earn Rapid Rewards points via:</p>
-    <ul class="list">
-      <li><strong>Southwest flights</strong> – points earned per dollar spent, with different multipliers based on fare type.</li>
-      <li><strong>Rapid Rewards credit cards</strong> – points on everyday spend, often with bonus categories.</li>
-      <li><strong>Hotel, car rental and shopping partners</strong> – where you enter your Rapid Rewards number.</li>
-      <li><strong>Dining and online shopping portals</strong> in the Rapid Rewards ecosystem.</li>
-      <li><strong>Promotions and bonuses</strong> – time-limited offers to accelerate earnings.</li>
-    </ul>
-    <p>
-      For many members, a large share of annual points comes from card spend, partner activity and welcome bonuses,
-      not just from flying.
-    </p>
-  </section>
-
-  <!-- 3. How cards boost earnings -->
-  <section class="section">
-    <h2>3. How Credit Cards Boost Rapid Rewards Earnings</h2>
-    <p>
-      Rapid Rewards credit cards are central to many Southwest-focused strategies. Typical benefits include:
-    </p>
-    <ul class="list">
-      <li><strong>Points on every purchase</strong>, with higher earnings on Southwest and travel-related spend.</li>
-      <li><strong>Welcome bonuses</strong> that can move you closer to Companion Pass or multiple award trips.</li>
-      <li><strong>Anniversary points</strong> that extend value each year you keep the card.</li>
-      <li><strong>Progress toward Companion Pass</strong> through card spend (on eligible products and markets).</li>
-    </ul>
-    <p>
-      For frequent Southwest flyers, holding at least one Rapid Rewards card is often a key part of long-term strategy.
-    </p>
-  </section>
-
-  <!-- 4. Redemption categories -->
-  <section id="redeem" class="section">
-    <h2>4. Rapid Rewards Redemption Options</h2>
-    <p>Rapid Rewards points can be redeemed for:</p>
-    <ul class="list">
-      <li><strong>Southwest flights</strong> – the main and most straightforward use of points.</li>
-      <li><strong>Wanna Get Away–type fares and above</strong>, with varying point costs based on fare.</li>
-      <li><strong>Other options</strong> – such as gift cards or merchandise through Southwest portals (usually lower value than flights).</li>
-    </ul>
-    <p>
-      Because Southwest uses revenue-based pricing, there are fewer “sweet spots” than in classic award charts —
-      but also fewer surprises. When cash fares are low, points prices are generally low too.
-    </p>
-  </section>
-
-  <!-- 5. Elite tiers & Companion Pass -->
-  <section class="section">
-    <h2>5. Rapid Rewards Elite Tiers &amp; Companion Pass</h2>
-    <p>
-      Rapid Rewards offers elite tiers plus a separate Companion Pass benefit:
-    </p>
-    <ul class="list">
-      <li><strong>A-List</strong> – entry elite tier with priority boarding and bonus points.</li>
-      <li><strong>A-List Preferred</strong> – higher tier with stronger bonuses and perks.</li>
-      <li><strong>Companion Pass</strong> – allows a chosen companion to fly with you for just taxes and fees on eligible tickets once you qualify, for the remainder of the year and a future period, depending on current rules.</li>
-    </ul>
-    <p>
-      Certain Rapid Rewards credit cards help you inch closer to these thresholds via points-earning and occasional
-      promotional shortcuts, making them a crucial piece for Southwest loyalists.
-    </p>
-  </section>
-
-  <!-- 6. Key Program Features table -->
-  <section class="section">
-    <h2>6. Key Rapid Rewards Program Features</h2>
-    <div class="table-wrap">
-      <table class="table">
-        <thead>
-        <tr>
-          <th>Feature</th>
-          <th>How It Works</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-          <td>Program Type</td>
-          <td>Airline frequent-flyer program for Southwest Airlines.</td>
-        </tr>
-        <tr>
-          <td>Core Currency</td>
-          <td>Rapid Rewards points.</td>
-        </tr>
-        <tr>
-          <td>Earning Channels</td>
-          <td>Southwest flights, credit cards, partners, promotions.</td>
-        </tr>
-        <tr>
-          <td>Redemption Options</td>
-          <td>Revenue-based flight awards plus some non-flight options.</td>
-        </tr>
-        <tr>
-          <td>Elite Structure</td>
-          <td>A-List, A-List Preferred, plus separate Companion Pass benefit.</td>
-        </tr>
-        <tr>
-          <td>Best Use</td>
-          <td>Domestic and regional flights on Southwest, especially when cash fares are low.</td>
-        </tr>
-        </tbody>
-      </table>
+      <nav class="nav-links" aria-label="Page navigation">
+        <a href="#overview">Overview</a>
+        <a href="#earning">Earning Miles</a>
+        <a href="#redeem">Redeeming & Value</a>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <!-- 7. Internal cluster links -->
-  <section id="cards" class="section">
-    <h2>7. Other Airline &amp; Rewards Programs in This Cluster</h2>
-    <p>
-      If you are comparing Rapid Rewards with other airline or flexible ecosystems, The CreditCard Collection also covers:
-    </p>
-
-    <div class="cluster-grid">
-      <a class="cluster-card"
-         href="https://trueblue.creditcard/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=cluster_trueblue">
-        <h3>TrueBlue.Creditcard</h3>
-        <p>JetBlue TrueBlue points and dynamic redemptions.</p>
-      </a>
-
-      <a class="cluster-card"
-         href="https://skymiles.creditcard/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=cluster_skymiles">
-        <h3>SkyMiles.Creditcard</h3>
-        <p>Delta SkyMiles and revenue-style award pricing.</p>
-      </a>
-
-      <a class="cluster-card"
-         href="https://avios.creditcard/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=cluster_avios">
-        <h3>Avios.Creditcard</h3>
-        <p>Avios points used across multiple European and global carriers.</p>
-      </a>
-
-      <a class="cluster-card"
-         href="https://venturemiles.creditcard/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=cluster_venturemiles">
-        <h3>VentureMiles.Creditcard</h3>
-        <p>Flat-rate travel rewards that can offset Southwest tickets.</p>
-      </a>
-
-      <a class="cluster-card"
-         href="https://comparecc.creditcard/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=cluster_comparecc">
-        <h3>CompareCC.Creditcard</h3>
-        <p>Loyalty comparison hub across airline, hotel and bank programs.</p>
-      </a>
+  <main class="cc-page">
+    <!-- Breadcrumb -->
+    <div class="cc-breadcrumb">
+      <a href="https://choose.creditcard/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=breadcrumb">Home</a>
+      &nbsp;›&nbsp;
+      RapidRewards.Creditcard
     </div>
-  </section>
 
-  <!-- 8. CTA to Choose.Creditcard -->
-  <section class="section">
-    <h2>8. Best Cards for Earning Rapid Rewards Points</h2>
-    <p class="small">
-      The best Rapid Rewards card setup depends on how often you fly Southwest, whether you are aiming for Companion Pass
-      and how much you spend on everyday purchases.
-    </p>
-    <p class="small">
-      For a neutral overview of travel and rewards credit cards — including airline co-brands, flexible bank points and
-      simple fixed-rate travel cards — explore the main comparison hub.
-    </p>
-    <a class="cta"
-       href="https://choose.creditcard/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=bottom_cta">
-      Best Cards for Earning Rapid Rewards Points
-    </a>
-  </section>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>How Rapid Rewards–Style Airline Cards Turn Spend Into Flights</h1>
+        <p class="hero-lead">
+          Cards tied to Rapid Rewards-style frequent-flyer programs convert everyday spending and flights into airline miles. This page explains how the system works, how to earn and redeem miles, and what to consider before applying.
+        </p>
+        <a class="cta" href="https://choose.creditcard/travel/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=hero_cta">
+          Compare airline miles cards
+        </a>
+      </div>
+    </section>
 
-  <!-- Collection -->
-  <section class="section">
-    <h2>Part of The CreditCard Collection</h2>
-    <p class="small">
-      RapidRewards.Creditcard is part of <strong>The CreditCard Collection</strong>, a network of focused loyalty microsites
-      operated by ronarn AS.
-    </p>
-    <p class="small">
-      Each minisite explains one loyalty program in clear, neutral language so you can align it with your real-world routes,
-      travel frequency and card options.
-    </p>
-    <p class="small">
-      For detailed, unbiased credit card comparisons, visit
-      <a href="https://choose.creditcard/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=collection_section">
-        Choose.Creditcard
-      </a>.
-    </p>
-  </section>
+    <!-- Overview -->
+    <section id="overview" class="section">
+      <h2>What Is a Rapid Rewards–Style Miles Card?</h2>
+      <p>A Rapid Rewards–type credit card ties your everyday purchases directly to a frequent-flyer program, rather than generically collecting cashback or flexible points. Every charge earns miles — often combined with miles from actual flights when travelling with the partner airline. </p>
+      <p>These miles accumulate in a loyalty account and can later be redeemed for flights, cabin upgrades or partner-carrier itineraries, depending on the airline’s network and award-chart structure.</p>
+    </section>
 
-</main>
+    <!-- Earning -->
+    <section id="earning" class="section">
+      <h2>How Spending and Flying Earn Miles</h2>
+      <p>On a Rapid Rewards credit card, standard purchases typically earn a base rate of miles per currency spent. Some categories — like travel bookings, airline tickets or foreign transactions — may earn bonus miles. </p>
+      <p>When you actually fly with the partner airline, you also earn miles based on flight distance or fare class, stacking with card-based miles. Welcome bonuses or spend-based promotions can significantly boost your initial balance.</p>
+    </section>
 
-<footer class="mini-footer">
-  <p class="mini-footer-main">© 2025 The CreditCard Collection — ronarn AS</p>
+    <!-- Redeeming & Value -->
+    <section id="redeem" class="section">
+      <h2>Redeeming Miles — Flights, Upgrades & Partner Routes</h2>
+      <p>Miles can be redeemed for award flights, upgrades, or occasionally for partial-cash + mile bookings. The cost in miles depends on route, demand, seasonality and cabin class, with long-haul or premium flights often offering better value per mile than short domestic legs. </p>
+      <p>Because seat availability and airline surcharges influence redemption value, it’s smart to be flexible with travel dates and route options when redeeming miles.</p>
+    </section>
 
-  <p class="mini-footer-contact">
-    Contact: <a href="mailto:support@cc.creditcard">support@cc.creditcard</a>
-  </p>
+    <section class="section">
+      <h2>When a Miles Card Makes the Most Sense</h2>
+      <p>If you travel regularly — particularly long-haul or international flights — and are comfortable planning around award-seat availability, a Rapid Rewards–style card can provide substantial value. The more you fly, the faster miles accumulate toward free or upgraded tickets. </p>
+      <p>However, if you travel rarely or mostly use budget carriers, a generic travel-rewards or cashback card may offer more consistent value without being tied to one airline’s network.</p>
+    </section>
 
-  <nav class="mini-footer-legal">
-    <a href="https://privacy.creditcard" target="_blank" rel="noopener">Privacy</a> ·
-    <a href="https://terms.creditcard" target="_blank" rel="noopener">Terms</a> ·
-    <a href="https://disclaimer.creditcard" target="_blank" rel="noopener">Disclaimer</a> ·
-    <a href="https://disclosure.creditcard" target="_blank" rel="noopener">Affiliate Disclosure</a> ·
-    <a href="https://policies.creditcard" target="_blank" rel="noopener">Policies</a>
-  </nav>
+    <!-- Comparison table -->
+    <section class="section">
+      <h2>What to Compare Before You Apply</h2>
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Factor</th>
+              <th>What to Assess</th>
+              <th>Why It Matters</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Earn Rate</td>
+              <td>Miles per spend, bonus categories, promotions</td>
+              <td>Affects how quickly you build airline-redeemable miles.</td>
+            </tr>
+            <tr>
+              <td>Flight Earning & Bonus Rules</td>
+              <td>How miles are awarded for flight distance, fare class, partner flights</td>
+              <td>Determines how fast you earn miles from actual travel — often the bulk of value.</td>
+            </tr>
+            <tr>
+              <td>Redemption Chart & Seat Availability</td>
+              <td>Award pricing by route, cabin and season; partner-seat access</td>
+              <td>Shows realistic cost of flights via miles and whether seats are bookable.</td>
+            </tr>
+            <tr>
+              <td>Fees & Foreign Transaction Costs</td>
+              <td>Annual fee, FX fees, award-ticket surcharges</td>
+              <td>Impacts net benefit; high fees can erode miles value and offset perks.</td>
+            </tr>
+            <tr>
+              <td>Travel Pattern Fit</td>
+              <td>How often and where you fly relative to airline network</td>
+              <td>Ensures miles and redemptions match your real travel behaviour.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small">
+        For broader comparisons of travel and credit-card offers, visit
+        <a href="https://choose.creditcard/travel/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=comparison_section">
+          Choose.Creditcard
+        </a>.
+      </p>
+    </section>
 
-  <p class="mini-footer-note">
-    Independent information — not financial advice. Always verify issuer terms.
-  </p>
-</footer>
+    <!-- Cluster links -->
+    <section class="section">
+      <h2>Related Airline & Rewards Microsites</h2>
+      <div class="cluster-grid">
+        <a class="cluster-card" href="https://flyingblue.creditcard/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=cluster_flyingblue">
+          <h3>FlyingBlue.Creditcard</h3>
+          <p>Joint airline loyalty programs with shared miles pools and broad partner networks.</p>
+        </a>
+        <a class="cluster-card" href="https://avios.creditcard/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=cluster_avios">
+          <h3>Avios.Creditcard</h3>
+          <p>Shared points currencies across multiple airlines and redemption options.</p>
+        </a>
+        <a class="cluster-card" href="https://krisflyer.creditcard/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=cluster_krisflyer">
+          <h3>KrisFlyer.Creditcard</h3>
+          <p>Airline-specific miles cards targeting long-haul and international travel.</p>
+        </a>
+        <a class="cluster-card" href="https://mileageplus.creditcard/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=cluster_mileageplus">
+          <h3>MileagePlus.Creditcard</h3>
+          <p>Alliance-based frequent-flyer cards with access to multiple airlines.</p>
+        </a>
+        <a class="cluster-card" href="https://travelrewards.creditcard/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=cluster_travelrewards">
+          <h3>TravelRewards.Creditcard</h3>
+          <p>Flexible travel-rewards cards for travellers who value flexibility over airline loyalty.</p>
+        </a>
+      </div>
+    </section>
 
+    <!-- Collection section -->
+    <section class="section">
+      <h2>Part of The CreditCard Collection</h2>
+      <p class="small">
+        RapidRewards.Creditcard is part of <strong>The CreditCard Collection</strong> — a series of microsites by ronarn AS. Each page explains one type of card strategy so you can understand mechanics, compare offers, and evaluate whether a card fits your habits.
+      </p>
+      <p class="small">
+        We do not issue cards or operate airlines. This content is informational — summarising typical structures, trade-offs and reward dynamics so you can approach offers with full knowledge.
+      </p>
+      <p class="small">
+        This is not financial or travel advice. Airline routes, award availability, fees and offer terms can change — always verify official issuer details before you apply.
+      </p>
+
+      <!-- HUB SNIPPET – Travel & FX hub -->
+      <div class="hub-link">
+        <a href="https://choose.creditcard/travel/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=minisite_to_hub"
+           class="text-sm text-slate-600 hover:text-slate-900">
+          Learn more at the Travel &amp; FX hub
+        </a>
+      </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="section">
+      <h2>Ready to Compare Airline & Travel Cards?</h2>
+      <p class="small">
+        Use RapidRewards.Creditcard to understand how miles-based airline cards work — then go to the main hub to compare live offers, earn rates and redemption details side by side.
+      </p>
+      <a class="cta" href="https://choose.creditcard/travel/?utm_source=rapidrewards.creditcard&utm_medium=referral&utm_campaign=bottom_cta">
+        Go to Choose.Creditcard
+      </a>
+    </section>
+  </main>
+
+  <footer class="mini-footer">
+    <p class="mini-footer-main">© 2025 The CreditCard Collection — ronarn AS</p>
+    <p class="mini-footer-contact">
+      Contact: <a href="mailto:support@cc.creditcard">support@cc.creditcard</a></p>
+  </footer>
 </body>
 </html>
